@@ -149,7 +149,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-  - host: ingress.zlx.io
+  - host: ingress.kube.io
     http:
       paths:
       - backend:
